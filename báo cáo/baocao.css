@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+}
+.butlog{
+    margin-left: 350px;
+    border-radius: 50px;
+    box-shadow: none;
+    border: none;
+    width: 76px;
+    height: 38px;
+} 
+.butlog:hover{
+    background-color: lightskyblue;
+}
+.butsig{
+    border-radius: 50px;
+    background-color: aqua;
+    border: none;
+    width: 76px;
+    height: 38px;
+    
+}
+.butsig:hover{
+    background-color: lightskyblue;
+}
+input{
+    border-color: lightgrey;
+    margin-left: 30px;
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+}
+input:hover{
+    border-color: aquamarine;
+}
+.hd{
+    margin: 0; 
+    background-color: white;
+    margin-left: 228px;
+}
+.menu{
+    padding: 0;
+    background-color: lightseagreen;
+    list-style: none;
+    box-shadow: 0 0 5px ;
+    height: 50px;
+    margin: 5px;
+    width: 1340px;
+    display: table;
+}
+ ul.menu>li>a{
+    display: table-cell ;
+    border-right: 1px solid;
+    line-height: 50px;
+    text-decoration: none;
+    font-variant: small-caps;
+    margin-right:  20px;
+    color: white;
+    border-color: white;
+    width: 100px;
+    text-align:center;
+    margin-left: 20px;
+ }
+ ul.menu>li>a:hover{
+    background-color: lightskyblue;
+    font-weight: bolder;
+    
+ }
+ ul.menu>li{
+    float:left;
+    margin: 0px;
+    position: relative;
+    
+ }
+  ul.menu>li:hover>.chude{
+    display: block;
+  }
+  .chude{
+    padding: 0;
+    background-color: lightseagreen;
+    list-style: none;
+    box-shadow: 0 0 5px ;
+    width: 150px;
+    margin: 0px;
+    position: absolute;
+    display: none;
+    border-bottom: white ;
+  }
+  .chude>li>a{
+    display: block;
+    line-height: 60px;
+    
+    text-decoration: none;
+    font-variant: normal;
+    padding-left: 25px;
+    color: white;
+  }
+  .chude>li>a:hover{
+    background-color: lightskyblue;
+    font-weight: bolder;
+    color: antiquewhite;
+   
+  }
+  .ht{
+    border-width: 10px;
+  }
+  
+  footer{
+    height: 230px;
+    clear: both;
+    color: white;
+    background-color: black;
+    /*text-align: center;*/
+}
+  aside{
+    width: 10%;
+    min-height: 500px;
+    float: left;  
+    text-align: center;
+  }
+
+  article{
+    width: 80%;
+    min-height: 500px;
+    color: black;
+    float: left;
+    text-align: center;
+    
+  }
+  nav{
+    width: 10%;
+    min-height: 500px;
+    float: left;
+    text-align: center;
+  }
+  .ht{
+    float: right;
+  }
+  .trong{
+    
+  }
+ .tk{
+    border-color: lightgray;
+    width: 55px;
+    height: 1cm;
+    border-radius: 5px;
+    text-align: left;
+ }
+ .tk:hover{
+    background-color: lightgrey;
+ }
+ .lh{
+    margin-left: 150px;
+ }
+ .logofb, .logoyt, .logogit{
+    width: 40px;
+    height: 40px;
+ }
+ .lhp{
+    float: right;
+    margin-right: 150px;
+    text-align: right;
+ }
+ .fb{
+    text-align: center;
+ }
+ .logo{
+    margin-left: 5px ;
+ }
