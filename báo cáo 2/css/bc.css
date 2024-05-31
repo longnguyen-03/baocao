@@ -25,8 +25,9 @@ border: 0 !important;
 .card-ngang{
 color: black  !important;
 margin-left: 0px;
-min-width: 400px;
-}
+width: 360px!important;
+height: 80px !important;
+} 
 .card-ngang:hover{
 color: lightskyblue !important;
 text-decoration-line: none !important;
