@@ -1,0 +1,138 @@
+.search:hover{
+  background-color: lightskyblue !important;
+  border-color: lightskyblue !important;
+  
+}
+a{
+font-size: medium;
+}
+input:hover{
+  border-color: lightskyblue;
+}
+.new-left:hover{
+color: lightskyblue;
+}
+.new-left{
+color: black;
+}
+a:hover{
+color: lightskyblue ;
+text-decoration-line: none !important;
+}
+.card{
+border: 0 !important;
+}
+.card-ngang{
+color: black  !important;
+margin-left: 0px;
+min-width: 400px;
+}
+.card-ngang:hover{
+color: lightskyblue !important;
+text-decoration-line: none !important;
+}
+.card:hover{
+  color: lightskyblue !important;
+  text-decoration-line: none !important;
+}
+.card-text:hover{
+color: lightskyblue !important;
+}
+.card-other{
+max-width: 400px;
+}
+
+img{
+border-radius: 4px;
+}
+.butsign{
+  border: 1px solid white;
+  width: 100px !important  ;
+  height: 35px !important;
+}
+.butsign:hover{
+  background-color: lightskyblue !important;
+  color: white !important;
+}
+.butsign-dn:hover{
+  background-color: lightskyblue !important;
+  color: white !important;
+}
+.nav>li>a:hover{
+  background-color: lightseagreen;
+  font-weight: bolder !important;
+}
+ul {
+  list-style: none;
+  text-align: left;
+}
+ul.nav>li{
+  
+  margin: 0px;
+  position: relative !important;
+  
+}
+ul.nav>li:hover>.dropdown{
+  display: block !important;
+}
+.dropdown {
+  padding: 0 !important;
+  background-color: lightseagreen !important;
+  box-shadow: 0 0 5px  !important;
+  width: 150px !important;
+  margin: 0px !important;
+  position: absolute !important;
+  z-index: 100;
+  display: none !important;
+  border-bottom: white  !important;
+} 
+.dropdown>li>a{
+  display: block !important;
+  line-height: 60px !important;
+
+  font-variant: normal !important;
+  padding-left: 25px !important;
+  color: white !important;
+}
+.dropdown>li>a:hover{
+  background-color: lightskyblue !important;
+  font-weight: bolder !important;
+  color: white !important;
+  text-decoration: none;
+}
+footer{
+  width: 100%;
+  
+  clear: both;
+  color: white;
+  background-color: black;
+  /*text-align: center;*/
+}
+.lh{
+  margin-left: 30px;
+}
+.logofb, .logoyt, .logogit{
+  width: 40px;
+  height: 40px;
+}
+.lhp{
+  float: right;
+  margin-right: 30px;
+  text-align: right;
+}
+.fb{
+  text-align: center;
+}
+.logo{
+  margin-left: 5px ;
+}
+.search{
+  width: 60px !important;
+  height: 35px !important;
+  border-radius: 8px;
+  background-color: white
+}
+span{
+  color: orangered;
+  font-style: normal;
+}
