@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quên Mật Khẩu</title>
+    <link rel="stylesheet" href="css\cssdn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .success-message {
+            display: none;
+            color: green;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .forgot-password-container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+
+        .btn,
+        .send-btn {
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .btn:hover,
+        .send-btn:hover {
+            background-color: #0056b3;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .send-btn {
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        .input-group {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+    <script>
+        function showSuccessMessage() {
+            const contact = document.getElementById('contact').value;
+            const verificationCode = document.getElementById('verificationCode').value;
+            const newPassword = document.getElementById('newPassword').value;
+
+            if (contact && verificationCode && newPassword) {
+                document.getElementById('successMessage').style.display = 'block';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="forgot-password-container">
+        <h2>Quên Mật Khẩu</h2>
+        <form id="forgotPasswordForm">
+            <div class="form-group">
+                <label for="contact"><i class="fas fa-paper-plane"></i> Số Điện Thoại hoặc Email:</label>
+                <div class="input-group">
+                    <input type="text" id="contact" class="form-control" name="contact" required>
+                    <button type="button" class="send-btn">Gửi</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="verificationCode"><i class="fas fa-key"></i> Mã Xác Nhận:</label>
+                <input type="text" id="verificationCode" class="form-control" name="verificationCode" required>
+            </div>
+            <div class="form-group">
+                <label for="newPassword"><i class="fas fa-lock"></i> Mật Khẩu Mới:</label>
+                <input type="password" id="newPassword" class="form-control" name="newPassword" required>
+            </div>
+            <div class="form-group">
+                <label for="newPassword"><i class="fas fa-lock"></i> Xác nhận mật khẩu:</label>
+                <input type="password" id="newPassword" class="form-control" name="newPassword" required>
+            </div>
+            <button type="button" class="btn" onclick="showSuccessMessage()">Đổi Mật Khẩu</button>
+        </form>
+        <div class="success-message" id="successMessage">
+            Thay đổi mật khẩu thành công!
+        </div>
+    </div>
+</body>
+
+</html>
